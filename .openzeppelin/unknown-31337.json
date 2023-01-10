@@ -1,0 +1,44 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x9E545E3C0baAB3E08CdfD552C960A1050f373042",
+    "txHash": "0x71aff5f9fa542fee39885eeb43d0163548728905de968fbf8e4e6778c336362b"
+  },
+  "proxies": [
+    {
+      "address": "0xa82fF9aFd8f496c3d6ac40E2a0F282E47488CFc9",
+      "txHash": "0x101a94bdf25f32f1c97637cb57a8c4f27b8fe1dfde7486e53add0a496d2bbf5b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1613beB3B2C4f22Ee086B2b38C1476A3cE7f78E8",
+      "txHash": "0x8f0c104b1b8b04b1138b0842e0bdf39f61c0c3f68f2facc20dd19dcddf3e7e56",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "935b140d997f247b81134770797ee817fe2eb03b7974e132f018770b6aaa0280": {
+      "address": "0x84eA74d481Ee0A5332c457a4d796187F6Ba67fEB",
+      "txHash": "0xc5ebd02b397d98251eab9c5e5bf4ef9a1757bc2243c768eb1af4ceae552761d7",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/vault/box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
